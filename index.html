@@ -1,35 +1,37 @@
+<!DOCTYPE html>
 <html>
 	<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<style>
-		.container {
-		  position: relative;
-		  text-align: center;
-		  color: white;
-		}
+			body, html {
+			  height: 100%;
+			  margin: 0;
+			}
 
-		.top-left {
-		  position: absolute;
-		  top: 50px;
-		  left: 50px;
-		}
-		
-		@font-face { font-family: Vivaldi; src: url('../vivaldi.ttf') format('truetype'); }
-		@font-face { font-family: Vivaldii; src: url('../VIVALDII.TTF') format('truetype'); } 
-		h1 {
-			font-family: Vivaldi;
-			color:#664c28;
-		}
+			.bg {
+			  /* The image used */
+			  background-image: url("Background.jpg");
+
+			  /* Full height */
+			  height: 100%; 
+
+			  /* Center and scale the image nicely */
+			  background-position: center;
+			  background-repeat: no-repeat;
+			  background-size: cover;
+			}
+
+			@font-face { font-family: Vivaldi; src: url('../vivaldi.ttf') format('truetype'); }
+
+			.sv {
+				font-family: Vivaldi;
+				color:#664c28;
+			}
 		</style>
 	</head>
 	<body>
-		<div class="container">
-			<img src="3467498.jpg">
-			<h1>
-				<div class="top-left">Serviam Veritati Management Corp</div>
-				<br>
-				<div class="top-left" style="margin-top:50px;">Finance, Accounting & Project Management Services</div>
-			</h1>
-		</div>
+		<h1 class="sv" style="position:absolute;margin-top:50px;margin-left:50px">Serviam Veritati Management Corp</h1>
+		<h1 class="sv" style="position:absolute;margin-top:90px;margin-left:50px">Finance, Accounting & Project Management Services</h1>
+		<div class="bg"></div>
 	</body>
 </html>
