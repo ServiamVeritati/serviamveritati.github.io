@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Vivaldi';
-    src: url('css/fonts/Vivaldi.woff2') format('woff2');
+    src: url('../css/fonts/Vivaldi.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
